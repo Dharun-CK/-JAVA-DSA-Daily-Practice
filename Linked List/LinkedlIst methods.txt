@@ -1,0 +1,223 @@
+methods : Several methods to do efficiently 
+
+1.addFirst ()
+
+import java.util.LinkedList;
+
+ class simpleprogram {
+  public static void main(String[] args) {
+    LinkedList<String> colors = new LinkedList<String>();
+    colors.add("yellow");
+    colors.add("Green");
+    colors.add("Blue");
+    
+    // Use addFirst() to add the item to the beginning
+    colors.addFirst("Black");
+    System.out.println(colors);
+  }
+}
+
+
+2.addLast()
+
+import java.util.LinkedList;
+
+ class simpleprogram {
+  public static void main(String[] args) {
+    LinkedList<String> colors = new LinkedList<String>();
+    colors.add("Blue");
+    colors.add("Yellow");
+    colors.add("Blue");
+    
+    // Use addLast() to add the item to the end
+    colors.addLast("Green");
+    System.out.println(colors);
+  }
+}
+
+3.getFirst ();
+
+import java.util.LinkedList;
+
+ class colors {
+  public static void main(String[] args) {
+    LinkedList<String> colors = new LinkedList<String>();
+    colors.add("yellow");
+    colors.add("blue");
+    colors.add("Green");
+    colors.add("Violet");
+    
+    // Use getFirst() to display the first item in the list
+    System.out.println(colors.getFirst());
+  }
+}
+
+4.getLast ();
+
+import java.util.LinkedList;
+
+ class colors {
+  public static void main(String[] args) {
+    LinkedList<String> colors = new LinkedList<String>();
+    colors.add("yellow");
+    colors.add("blue");
+    colors.add("Green");
+    colors.add("Violet");
+    
+    // Use getFirst() to display the first item in the list
+    System.out.println(colors.getLast());
+  }
+}
+
+
+5.clear ()
+
+
+import java.util.LinkedList; 
+  
+ class simpleprogram { 
+    public static void main(String args[]) 
+    { 
+  
+        // Creating an empty LinkedList 
+        LinkedList<String> list = new LinkedList<String>(); 
+  
+        // Using add() method to add elements in the list 
+        list.add("Bharani"); 
+        list.add("teaching"); 
+        list.add("English"); 
+        list.add("50"); 
+        list.add("70"); 
+  
+        // Displaying the List 
+        System.out.println("Original LinkedList:" + list); 
+  
+        // Clearing the list 
+        list.clear(); 
+  
+        // Accessing the List after clearing it 
+        System.out.println("List after clearing all elements: " + list); 
+  
+        // Adding elements after clearing the list 
+        list.add("Bharani"); 
+        list.add("Teaching"); 
+        list.add("Java"); 
+  
+        // Displaying the List 
+        System.out.println("After adding elements to empty list:" + list); 
+    } 
+} 
+
+
+6.removeLast()
+
+import java.util.LinkedList;
+ 
+ class simpleprogram {
+    public static void main(String[] args)
+    {
+        LinkedList<String> colors = new LinkedList<>();
+ 
+        // add elements to the list
+        colors.add("apple");
+        colors.add("banana");
+        colors.add("orange");
+        colors.add("grape");
+        System.out.println("Original list:");
+        System.out.println(colors);
+ 
+        // remove the last element
+        String removed = colors.removeLast();
+        System.out.println("Element removed: " + removed);
+        System.out.println(colors);
+    }
+}
+
+
+
+
+7.set() method 
+
+import java.util.LinkedList;
+ 
+// Class
+
+class Colors {
+ 
+    // Main driver method
+    public static void main(String args[])
+    {
+        // Creating an empty LinkedList
+        LinkedList<String> colors = new LinkedList<String>();
+ 
+        // Use add() method to add elements in the list
+        colors.add("blue");
+        colors.add("greeen");
+        colors.add("yellow");
+        colors.add("50");
+        colors.add("70");
+ 
+        // Displaying the linkedlist
+        System.out.println("LinkedList:" + colors);
+ 
+        // Using set() method to replace Geeks with GFG
+        System.out.println(
+            "The Object that is replaced is: " + colors.set(2, "Black"));
+ 
+        // Using set() method to replace 20 with 50
+        System.out.println(
+            "The Object that is replaced is: " + colors.set(4, "Red"));
+ 
+        // Displaying the modified linkedlist
+        System.out.println("The new LinkedList is:" + colors);
+    }
+}
+
+8.size()
+
+
+
+import java.util.LinkedList;
+
+class Colors {
+   
+    public static void main(String args[])
+    {
+ 
+        // Creating an empty LinkedList
+        LinkedList<String> colors = new LinkedList<String>();
+ 
+        // Using add() method to add elements in the list
+        colors.add("yellow");
+        colors.add("Blue");
+        colors.add("Red");
+        colors.add("80");
+        colors.add("210");
+ 
+        // Displaying the linkedlist
+        System.out.println("LinkedList:" + colors);
+ 
+        // Displaying the size of the list
+        System.out.println(
+            "The size of the linked list is: " + colors.size());
+    }
+}
+
+============================================================================
+
+6.removeFirst()
+
+import java.util.LinkedList;
+
+class simpleprogram{
+    public static void main(String[] args){
+        LinkedList<String> colors = new LinkedList<>();
+        colors.add("Blue");
+        colors.add("black");
+        colors.add("Yellow");
+
+        String removed=colors.removeFirst();
+        System.out.println("Removed Element :" + removed);
+        System.out.println(colors);
+    }
+}
