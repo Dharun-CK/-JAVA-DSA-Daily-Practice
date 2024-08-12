@@ -93,4 +93,4 @@ public static void main(String[] args) {
 	sll.insertMid(100,2);
 	sll.insertLast(20000);
 }
-}
+} 
